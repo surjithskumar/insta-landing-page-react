@@ -20,12 +20,12 @@ function SuggestedHeader() {
             gap={5}
           />
           <Text fontSize={12} fontWeight="bold" color={"white"} gap={5}>
-            asaProgrammer
+            Kartik
           </Text>
         </Flex>
         <Link
           as={RouterLink}
-          to="/auth"
+          // to="/auth"
           fontWeight="medium"
           color="blue.400"
           textDecoration="none"

@@ -10,25 +10,25 @@ function ProfileHeader() {
           justifySelf="center"
           alignSelf="flex-start"
           mx="auto"
-          
+
         >
           <Avatar name="As a programmer" src="/public/pro5.jpeg" />
         </AvatarGroup>
 
         <VStack alignItems="start" gap={4} mx="auto" flex={1}>
           <Text marginLeft={7} color={"white"} fontSize={{ base: 'sm', md: 'lg' }} gap={10}>
-          asaPRogrammer__
-          <Button
-            bg="white"
-            color="black"
-            _hover={{ bg: 'whiteAlpha.400' }}
-            size={{ base: 'xs', md: 'sm' }}
-            w="fit-content"
-          >
+            Kartik
+            <Button
+              bg="white"
+              color="black"
+              _hover={{ bg: 'whiteAlpha.400' }}
+              size={{ base: 'xs', md: 'sm' }}
+              w="fit-content"
+            >
 
 
-            Edit Profile
-          </Button>
+              Edit Profile
+            </Button>
           </Text>
 
           <Flex alignItems="center" gap={{ base: 2, sm: 4 }}>

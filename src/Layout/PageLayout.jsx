@@ -3,25 +3,25 @@ import Sidebar from '../Components/Sidebar'
 import { useLocation } from 'react-router-dom'
 import { Box, Flex } from '@chakra-ui/react'
 
-function PageLayout({children}) {
-    const {pathname}=useLocation()
+function PageLayout({ children }) {
+  const { pathname } = useLocation()
   return (
     <div>
       <Flex>
-     {/* sidebar on left */}
-    
+        {/* sidebar on left */}
 
-    {pathname!=='/auth'?(
-     <Box w={{base:"70px",md:"240px"}}>
-     <Sidebar/>
-    </Box >
-    ):null}
 
-{/* the page content on the right side */}
+        {pathname !== '/auth' ? (
+          <Box w={{ base: "70px", md: "240px" }}>
+            <Sidebar />
+          </Box >
+        ) : null}
 
-<Box flex={1} w={{base:"calc(100%-70%)",md:"calc(100%-70px)"}}>
-{children}
-</Box>
+        {/* the page content on the right side */}
+
+        <Box flex={1} w={{ base: "calc(100%-70%)", md: "calc(100%-70px)" }}>
+          {children}
+        </Box>
       </Flex>
     </div>
   )

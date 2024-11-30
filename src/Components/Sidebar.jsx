@@ -40,13 +40,13 @@ function Sidebar() {
     <Box
       height="100vh"
       borderRight="1px solid"
-     
+
       py={8}
       position="sticky"
       top={0}
       left={0}
       px={{ base: 2, md: 3 }}
-     
+
     >
       <Flex direction="column" gap={6} w="full" height="full">
         {/* Logo Section */}
@@ -126,7 +126,7 @@ function Sidebar() {
           <Link
             display="flex"
             as={RouterLink}
-            to="/auth"
+            // to="/auth"
             alignItems="center"
             gap={4}
             _hover={{ bg: "whiteAlpha.400" }}

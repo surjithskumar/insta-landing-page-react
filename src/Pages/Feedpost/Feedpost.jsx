@@ -33,9 +33,9 @@ function Feedpost() {
         {!isLoading && (
           <>
             <Feedposts img="/pro5.jpeg" username="Steevan" avatar="public/pro3.png" />
-            <Feedposts img="/pro4.jpeg" username="Avann" avatar="/public/pro3.png" />
-            <Feedposts img="/profile2.jpeg" username="Feran" avatar="/pro3.png" />
-            <Feedposts img="/pro3.png" username="Kedhu" avatar="/pro3.png" />
+            <Feedposts img="/pro4.jpeg" username="John" avatar="/public/pro3.png" />
+            <Feedposts img="/profile2.jpeg" username="Zoya" avatar="/pro3.png" />
+            <Feedposts img="/pro3.png" username="Niya" avatar="/pro3.png" />
           </>
         )}
       </Container>
